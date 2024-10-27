@@ -37,7 +37,7 @@ body {
 #Card-Open{
     background-color: #F9F7C9;
     margin-top: 0cm;
-    background-image: url('img/IMG_0448.jpg');
+    background-image: url('img_edit/19.jpg');
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
     background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -86,7 +86,7 @@ body {
 #Card-Foto-larga{
     background-color: #F9F7C9;
     margin-top: 0cm;
-    background-image: url('img/IMG_0624.JPG');
+    background-image: url('img_edit/17.jpg');
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -140,11 +140,13 @@ body {
     height: 120vh;  
     background-position: top center; 
     margin: 0 auto;/* Coloca la imagen en la parte superior y centrada */
+    padding-left: 35%;
+    padding-right: 35%;
 }
 #Card-Fondo2{
     /*background-color: #56070c;*/
     margin-top: 0cm;
-    background-image: url('img/IMG_0539.JPG'); 
+    background-image: url('img_edit/10.jpg'); 
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -155,6 +157,8 @@ body {
     height: 150vh;  
     background-position: top center;
     margin: 0 auto; /* Coloca la imagen en la parte superior y centrada */
+    padding-left: 35%;
+    padding-right: 35%;
 }
 #Card-Fondo3{
     /*background-color: #56070c;*/
@@ -198,6 +202,8 @@ body {
     margin: 0;
     height: 400vh;  
     background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+    padding-left: 45%;
+    padding-right: 45%;
 }
 #Card-Fondo6{
     /*background-color: #56070c;*/
@@ -210,14 +216,16 @@ body {
     height: 1000px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
-    height: 80vh;  
+    height: 110vh;  
     background-position: top center; 
-    margin: 0 auto;/* Coloca la imagen en la parte superior y centrada */
+    margin: 0 auto;
+    padding-left: 55%;
+    padding-right: 55%;/* Coloca la imagen en la parte superior y centrada */
 }
 #Card-Regalo{
     background-color: #F9F7C9;
     margin-top: 0cm;
-    background-image: url('img/IMG_0557.JPG');
+    background-image: url('img_edit/4.jpg');
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -227,6 +235,8 @@ body {
     margin: 0;
     height: 300vh;  
     background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+    padding-left: 35%;
+    padding-right: 35%;
 }
 #Card-Regalo2{
     background-color: #5b0816;
@@ -239,7 +249,7 @@ body {
     height: 1200px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
-    height: 300vh;  
+    height: 200vh;  
     background-position: top center; /* Coloca la imagen en la parte superior y centrada */
 }
 #Card-Regalo3{
@@ -256,6 +266,20 @@ body {
     height: 100vh;  
     background-position: top center; 
     margin: 0 auto;/* Coloca la imagen en la parte superior y centrada */
+}
+#Card-Regalo4{
+    background-color: #b3828a;
+    margin-top: 0cm;
+   /* background-image: url('img/IMG_0557.JPG');*/
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 2000px;            /* Anchura del círculo */
+    height: 1200px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 50vh;  
+    background-position: top center; /* Coloca la imagen en la parte superior y centrada */
 }
 #Card-time{
     background-color: #F9F7C9;
@@ -566,6 +590,9 @@ font-family:"Raleway", sans-serif
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+#paddingM{
+    padding:5cm
 }
 
 

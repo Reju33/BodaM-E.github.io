@@ -9,7 +9,7 @@ function moveSlide(n) {
 
     currentIndex += n;
 
-    if (currentIndex >= totalSlides-1) {
+    if (currentIndex >= totalSlides) {
         currentIndex = 0; // Vuelve al primer slide si excede el último
     } else if (currentIndex < 0) {
         currentIndex = totalSlides - 1; // Va al último si es negativo
