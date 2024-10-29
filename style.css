@@ -35,9 +35,9 @@ body {
     color: #AAD9BB; /* Cambia el color del texto */
 }
 #Card-Open{
-    background-color: #F9F7C9;
+    /*background-color: #F9F7C9;*/
     margin-top: 0cm;
-    background-image: url('img_edit/19.jpg');
+    /*background-image: url('img_edit/19.jpg');*/
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
     background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -86,7 +86,7 @@ body {
 #Card-Foto-larga{
     background-color: #F9F7C9;
     margin-top: 0cm;
-    background-image: url('img_edit/17.jpg');
+    /*background-image: url('img_edit/17.jpg');*/
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -146,7 +146,7 @@ body {
 #Card-Fondo2{
     /*background-color: #56070c;*/
     margin-top: 0cm;
-    background-image: url('img_edit/10.jpg'); 
+    /*background-image: url('img_edit/10.jpg'); */
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -225,7 +225,7 @@ body {
 #Card-Regalo{
     background-color: #F9F7C9;
     margin-top: 0cm;
-    background-image: url('img_edit/4.jpg');
+    /*background-image: url('img_edit/4.jpg');*/
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
