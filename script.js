@@ -1,5 +1,5 @@
 // Configura la fecha y hora límite de la cuenta regresiva
-const countdownDate = new Date("Dec 31, 2024 23:59:59").getTime();
+const countdownDate = new Date("Feb 1, 2025 13:00:00").getTime();
 
 // Actualiza la cuenta regresiva cada 1 segundo
 const x = setInterval(function() {
