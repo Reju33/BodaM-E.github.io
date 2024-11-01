@@ -97,14 +97,14 @@ body {
     background-position: top center; /* Coloca la imagen en la parte superior y centrada */
 }
 #Card-Wo{
-    background-color: #F9F7C9;*/
+    /*background-color: #F9F7C9;*/
     margin-top: 0cm;
     /*background-image: url('img/IMG_0603.JPG');*/
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
     width: auto;            /* Anchura del círculo */
-    height: 400px;           /* Altura del círculo */
+    height: 300px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
     height: 400vh;  
