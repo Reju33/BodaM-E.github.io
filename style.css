@@ -42,7 +42,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
     background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;             /* Anchura del círculo */
     height: 600px;           /* Altura del círculo */
     background-attachment:fixed;
     margin: 0;
@@ -50,23 +50,7 @@ body {
     background-position: top center;
     margin: 0 auto;/* Coloca la imagen en la parte superior y centrada */
 }
-/* Estilos responsive para pantallas más pequeñas */
-@media (max-width: 768px) {
-    #Card-Open {
-        background-size: cover; /* La imagen seguirá cubriendo el fondo */
-        background-position: top center; /* Ajuste de la posición de la imagen */
-        background-attachment: fixed; /* Evita problemas con el fondo fijo en dispositivos móviles */
-        height: 300vh; /* Reducir la altura a 70% de la vista para pantallas más pequeñas */
 
-    }
-}
-
-@media (max-width: 480px) {
-    #Card-Open {
-        height: 300vh; /* Reducir la altura a 60% de la vista en pantallas muy pequeñas */
-
-    }
-}
 
 
 #Card-Frase{
@@ -76,7 +60,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;           /* Anchura del círculo */
     height: 1200px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -91,7 +75,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;            /* Anchura del círculo */
     height: 100px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -105,7 +89,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;          /* Anchura del círculo */
     height: 100px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -113,14 +97,14 @@ body {
     background-position: top center; /* Coloca la imagen en la parte superior y centrada */
 }
 #Card-Wo{
-    /*background-color: #F9F7C9;*/
+    background-color: #F9F7C9;*/
     margin-top: 0cm;
     /*background-image: url('img/IMG_0603.JPG');*/
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
-    height: 4600px;           /* Altura del círculo */
+    width: auto;            /* Anchura del círculo */
+    height: 400px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
     height: 400vh;  
@@ -134,7 +118,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;             /* Anchura del círculo */
     height: 1000px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -151,7 +135,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;            /* Anchura del círculo */
     height: 1000px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -168,7 +152,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;           /* Anchura del círculo */
     height: 1000px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -183,7 +167,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;           /* Anchura del círculo */
     height: 1500px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -197,7 +181,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;            /* Anchura del círculo */
     height: 1500px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -213,7 +197,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;            /* Anchura del círculo */
     height: 1000px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -230,7 +214,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;           /* Anchura del círculo */
     height: 1200px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -246,7 +230,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;            /* Anchura del círculo */
     height: 1200px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -260,7 +244,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;             /* Anchura del círculo */
     height: 1200px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -275,7 +259,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
    /* background-position: center; /* Centra la imagen */
    /* background-repeat: no-repeat; /* Evita que la imagen se repita */
-    width: 2000px;            /* Anchura del círculo */
+   width: auto;            /* Anchura del círculo */
     height: 1200px;           /* Altura del círculo */
     background-attachment: fixed;
     margin: 0;
@@ -286,7 +270,7 @@ body {
     background-color: #F9F7C9;
     background-image: url('https://wallpapertag.com/wallpaper/full/0/5/9/539999-blue-flowers-wallpaper-1920x1200-windows-xp.jpg');
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
-    width: 2000px;            
+    width: auto;             
     height: 1200px;           
     background-attachment: fixed;
     margin: 0;
@@ -387,6 +371,7 @@ body {
     display: flex;
     width: 100%;
     transition: transform 0.4s ease;
+    margin: 0 auto; 
 }
 .carousel-text-overlay {
     position: absolute;
